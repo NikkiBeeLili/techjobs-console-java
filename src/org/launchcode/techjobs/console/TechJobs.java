@@ -121,7 +121,7 @@ public class TechJobs {
         }
 
         for (HashMap<String, String> hashMap : someJobs) {
-            String output = "\n";
+            String output = "\n*****\n";
             for (String key : hashMap.keySet()) {
                 output += key + ": " + hashMap.get(key) + "\n";}
 
